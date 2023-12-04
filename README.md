@@ -14,7 +14,7 @@
 - Build and run the docker images using `docker compose up --build` or `docker-compose up --build`.
 - Log into the docker backend image to run commands.
   - Run the migrations in the docker backend image `php artisan migration`.
-  - Run the jobs by `php artisan get:articles` to sync the articles from API sources. (open the localhost:8080 I have set a route to run the jobs from there to to make it more simpler)
+  - Run the jobs by `php artisan get:articles` to sync the articles from API sources. (OR open the http://localhost:8080 I have set a route to run the jobs from there to to make it more simpler)
   - Open the website through http://localhost:3000/
 
 #### Shortcut
