@@ -13,25 +13,6 @@ RUN composer install        \
 COPY . /app/
 RUN composer dump-autoload --optimize
 
-### Composer
-# ########################################################################
-
-# ### NodeJS
-
-# FROM node:14.17.0-alpine3.12 AS node
-
-# WORKDIR /app
-
-# COPY package.json           /app
-# COPY package-lock.json      /app
-# COPY webpack.mix.js         /app
-# COPY /resources             /app/resources
-
-# RUN npm install && npm run dev
-
-# ### NodeJS
-# ########################################################################
-
 ### PHP
 
 FROM php:8.2-fpm-alpine3.18
