@@ -6,6 +6,7 @@
 - For the keywords I used another table because keywords can be redundant too much.
 - I pushed the .env file to so that there will be no need to create it from scrach.
 - This is a [sample of the tables records](https://prnt.sc/X7dy61jMCcwN) on my local machine
+- And a note, I didn't pay attention to casual stuffs like validations and tests I hope you don't mind.
 
 ## How to run
 
