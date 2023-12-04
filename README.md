@@ -18,4 +18,4 @@
 
 #### Shortcut
 
-There is a Makefile in in case everything is configed as expected by running make start it should build, run images, and migrate the migrations.
+There is a Makefile in in case everything is configed as expected by running `make start` on a unix base OS should build, run images, and migrate the migrations.

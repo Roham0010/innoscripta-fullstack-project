@@ -59,7 +59,7 @@ WORKDIR /var/www
 
 EXPOSE 80
 
-CMD php artisan serve --host 0.0.0.0 && php artisan migrate && php artisan db:seed
+CMD php artisan serve --host 0.0.0.0
 
 ### PHP
 ########################################################################
