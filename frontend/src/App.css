@@ -1,0 +1,113 @@
+.logo {
+  position: absolute;
+  float: left;
+  transform: rotateY(179deg);
+  color: rgba(255, 255, 255, 0.85);
+  height: 41px;
+  top: 8px;
+}
+.home-image {
+  background-image: url(https://unsplash.com/photos/P1qyEf1g0HU/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MzN8fGFydGljbGV8ZW58MHx8fHwxNzAxNTI2ODExfDI&force=true&w=1920);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  margin-left: 0px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.navbar {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(255, 255, 255, 0.15);
+
+    padding: 0.75rem 0;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(112.520718,44.062154,249.437846, 1), rgba(112.520718,44.062154,249.437846, 0.95));
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+.nav-link {
+  color: rgba(255, 255, 255, 0.85);
+}
+.nav-link.active {
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+.navbar-brand {
+  color: rgba(255, 255, 255, 0.85);
+}
+.nav-link:hover,.navbar-brand:hover {
+  color: rgb(255, 255, 255);
+}
+.py-250p {
+  padding: 250px 0px;
+}
+.py-200p {
+  padding: 200px 0px;
+}
+.py-150p {
+  padding: 150px 0px;
+}
+.py-100p {
+  padding: 100px 0px;
+}
+.py-50p {
+  padding: 50px 0px;
+}
+.py-25p {
+  padding: 25px 0px;
+}
+.py-10p {
+  padding: 10px 0px;
+}
+body {
+  background: #eee;
+}
+
+.grid {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  color: #666666;
+  border-radius: 2px;
+  margin-bottom: 25px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.grid .grid-body {
+  padding: 15px 20px 15px 20px;
+  font-size: 0.9em;
+  line-height: 1.9em;
+}
+
+.search table tr td.rate {
+  color: #f39c12;
+  line-height: 50px;
+}
+
+.search table tr:hover {
+  cursor: pointer;
+}
+
+.search table tr td.image {
+  width: 50px;
+}
+
+.search table tr td img {
+  width: 50px;
+  height: 50px;
+}
+
+.search table tr td.rate {
+  color: #f39c12;
+  line-height: 50px;
+}
+
+.search table tr td.price {
+  font-size: 1.5em;
+  line-height: 50px;
+}
+
+.search #price1,
+.search #price2 {
+  display: inline;
+  font-weight: 600;
+}
